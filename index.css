@@ -6,7 +6,7 @@ body {
 
 .navbar {
   width: 200px;
-  background-color: #333;
+  background-color: #72baa9;
   color: white;
   height: 100vh;
   display: flex;
@@ -22,7 +22,9 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #575757;
+  background-color: #d5e7b5;
+  border: 2px solid #7e5cad;
+  color: #7e5cad;
 }
 
 .content {
@@ -36,11 +38,13 @@ body {
 
 #brand-name {
   font-size: 30px;
-  font-family: cursive;
+  font-family: "Sofia", sans-serif;
+  color: #7e5cad;
+  font-weight: 900;
 }
 
 #brand-name:hover {
-  background-color: #333;
+  background-color: #72baa9;
 }
 
 .dropdown {
@@ -55,12 +59,11 @@ body {
   left: 100%;
   top: 0;
   min-width: 200px;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .dropdown-content a {
   padding: 10px;
-  border-radius: 25px;
   background-color: #7a7777;
 }
 
