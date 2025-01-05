@@ -1,69 +1,69 @@
-* {
+body {
   margin: 0;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  height: 90vh;
-}
-
-.mainTop {
-  height: 5rem;
-  background-color: #ff9b43;
-  width: 100vw;
-  border: 1px solid black;
-}
-
-.mainBottom {
-  height: 38.95rem;
-  background-color: rgb(145, 56, 0);
-  width: 100vw;
+  font-family: Arial, sans-serif;
   display: flex;
 }
 
-.mainLeft {
-  background-color: #b59f78;
-  width: 16rem;
-  border: 1px solid black;
-}
-
-.menu {
-  display: grid;
+.navbar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  height: 100vh;
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  font-size: 2rem;
-  text-align: center;
+  padding-top: 20px;
 }
 
-.menu a {
+.navbar a {
+  color: white;
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  border: 1px black dashed;
-  padding: 10px;
-  cursor: pointer;
+  padding: 15px;
+  display: block;
 }
 
-.menu a:hover {
-  background-color: #faf6e3;
-  transition: 0.15s ease-in;
-}
-
-.mainRight {
-  background-color: rgb(255, 196, 227);
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
+.navbar a:hover {
+  background-color: #575757;
 }
 
 .content {
-  background-color: #faf6e3;
-  height: 32rem;
-  width: 84vw;
+  flex: 1;
+  padding: 20px;
 }
 
-.footer {
-  background-color: rgb(20, 5, 75);
-  height: 8rem;
-  width: 84vw;
+.content h1 {
+  margin: 0;
+}
+
+#brand-name {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+#brand-name:hover {
+  background-color: #333;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  background-color: #575757;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  min-width: 200px;
+  border-radius: 25px;
+}
+
+.dropdown-content a {
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #7a7777;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
 }

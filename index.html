@@ -3,31 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vertical Navbar Layout</title>
     <link rel="stylesheet" href="index.css" />
-    <title>website</title>
+    <style></style>
   </head>
   <body>
-    <div class="container">
-      <div class="mainTop"></div>
-      <div class="mainBottom">
-        <div class="mainLeft">
-          <div class="menu">
-            <a href="#">Home</a>
-            <ul>
-              <li><a href="#abc">ABC</a></li>
-              <li><a href="xyz">XYZ</a></li>
-            </ul>
-            <a href="#">Services</a>
-            <a href="#">Top Sellers</a>
-            <a href="#">About us</a>
-            <a href="#">Contact</a>
-          </div>
-        </div>
-        <div class="mainRight">
-          <div class="content"></div>
-          <div class="footer"></div>
+    <div class="navbar">
+      <div class="brand-logo">
+        <a href="#" id="brand-name">yo Kindeu</a>
+      </div>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <div class="dropdown">
+        <a href="#">Top Sellers</a>
+        <div class="dropdown-content">
+          <a href="#">Sneakers</a>
+          <a href="#">Slippers</a>
+          <a href="#">Boots</a>
         </div>
       </div>
+      <a href="#">Contact</a>
+    </div>
+    <div class="content">
+      <h1>Welcome to the Page</h1>
+      <p>This is the main content area. Add your content here.</p>
     </div>
   </body>
 </html>
